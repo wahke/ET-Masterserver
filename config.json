@@ -1,0 +1,21 @@
+{
+  "host": "0.0.0.0",
+  "port": 5000,
+  "use_ssl": false,
+  "ssl_cert": "/etc/letsencrypt/live/etmaster.wolffiles.eu/fullchain.pem",
+  "ssl_key": "/etc/letsencrypt/live/etmaster.wolffiles.eu/privkey.pem",
+  "udp_ip": "0.0.0.0",
+  "udp_port": 27950,
+  "known_protocols": [84, 83, 80, 59, 60, 50],
+  "master_servers": [
+    ["198.20.216.55", 27950],
+    ["104.248.140.165", 27950],
+    ["master.ioquake3.org", 27950],
+    ["master.trackbase.net", 27950],
+    ["master.1fxmod.org", 27950],
+    ["dpmaster.deathmask.net", 27950],
+    ["wolfmaster.s4ndmod.com", 27950],
+    ["wolfmaster.idsoftware.com", 27950],
+    ["master.rtcwcoop.com", 27950]
+  ]
+}
